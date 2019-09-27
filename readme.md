@@ -6,7 +6,11 @@ Dans la deuxième leçon nous avons commencé par décomposer l'interface de l'a
 
 Nous avons ensuite étudié [un petit programme Tkinter](./Lecon_02/question_7.py)
 
+![Résultat du programme](./images/lecon_02_q7.png)
+
 Nous avons modifié le programme précédent pour dessiner les pièces Tetris. [Le programme](./Lecon_02/question_8.py)
+
+![Résultat du programme](./images/lecon_02_q8.png)
 
 ## Séance du Jeudi 26/09/2019
 
