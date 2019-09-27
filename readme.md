@@ -4,9 +4,9 @@
 
 Dans la deuxième leçon nous avons commencé par décomposer l'interface de l'application.
 
-Nous avons ensuite étudié [un petit programme Tkinter](/ct_2ti/Lecon_02/question_7.py)
+Nous avons ensuite étudié [un petit programme Tkinter](./Lecon_02/question_7.py)
 
-Nous avons modifié le programme précédent pour dessiner les pièces Tetris. [Le programme](/ct_2ti/Lecon_02/question_8.py)
+Nous avons modifié le programme précédent pour dessiner les pièces Tetris. [Le programme](./Lecon_02/question_8.py)
 
 ## Séance du Jeudi 26/09/2019
 
@@ -14,5 +14,5 @@ Dans la troisième séance, nous avons fait un rappel sur la séance précédent
 
 Nous avons, par la suite, appliqué la pensée computationnelle afin de dessiner la figure d'une maison.
 
-![Résultat leçon 3](/ct_2ti/images/lecon_03.PNG)
+![Résultat leçon 3](./images/lecon_03.PNG)
 
