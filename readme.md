@@ -42,11 +42,11 @@ Pour ajouter de la vie à notre travail, nous avons utilisé un timer pour [fair
 
 Notre programme a été, par la suite, amélioré :
 
-* [La première amélioration]((./Lecon_05/programme_v04.py)
+* [La première amélioration](./Lecon_05/programme_v04.py)
 
 ![Résultat Programme](./images/lecon_05_03.gif)
 
-* [La deuxième amélioration]((./Lecon_05/programme_v05.py)
+* [La deuxième amélioration](./Lecon_05/programme_v05.py)
 
 ![Résultat Programme](./images/lecon_05_04.gif)
 
