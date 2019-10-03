@@ -41,7 +41,9 @@ Notre programme a été, par la suite, amélioré :
 
 * [La première amélioration](./Lecon_05/programme_v04.py) :         
   a. Le feu rouge s’allume pendant 5 secondes, puis s’éteint
+
   b. Le feu jaune s’allume pendant 1 seconde, puis s’éteint
+  
   c. Le feu vert s’allume pendant 5 secondes, puis s’éteint
 
 * [La deuxième amélioration](./Lecon_05/programme_v05.py) : Dans une situation réelle avant que le feu ne redevienne rouge une autre fois le feu jaune doit clignoter trois fois. Modifier votre programme afin de réaliser ce comportement.
