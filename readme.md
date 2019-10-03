@@ -34,21 +34,24 @@ Dans la cinquième séance, nous avons commencé par présenter les structures c
 
 Ensuite, nous avons essayé de dessiner un feu de circulation. Nous avons utilisé des constantes dans le calcul des différentes dimensions utilisés afin de permettre une certaine flexibilité dans le [programme](./Lecon_05/programme_v02.py).
 
-![Résultat Programme](./images/lecon_05_01.PNG)
 
 Pour ajouter de la vie à notre travail, nous avons utilisé un timer pour [faire clignoter les trois feux en même temps](./Lecon_05/programme_v03.py).
 
-![Résultat Programme](./images/lecon_05_02.gif)
-
 Notre programme a été, par la suite, amélioré :
 
-* [La première amélioration](./Lecon_05/programme_v04.py)
+* [La première amélioration](./Lecon_05/programme_v04.py) :         
+    a) Le feu rouge s’allume pendant 5 secondes, puis s’éteint
+    b) Le feu jaune s’allume pendant 1 seconde, puis s’éteint
+    c) Le feu vert s’allume pendant 5 secondes, puis s’éteint
 
-![Résultat Programme](./images/lecon_05_03.gif)
+* [La deuxième amélioration](./Lecon_05/programme_v05.py) : Dans une situation réelle avant que le feu ne redevienne rouge une autre fois le feu jaune doit clignoter trois fois. Modifier votre programme afin de réaliser ce comportement.
 
-* [La deuxième amélioration](./Lecon_05/programme_v05.py)
 
-![Résultat Programme](./images/lecon_05_04.gif)
+
+| Première version | Deuxième version | Troisième version | Quatrième version |
+| ---------------- | ---------------- | ----------------- | ----------------- |
+| ![Résultat Programme](./images/lecon_05_01.PNG) | ![Résultat Programme](./images/lecon_05_02.gif) | ![Résultat Programme](./images/lecon_05_03.gif) | ![Résultat Programme](./images/lecon_05_04.gif) |
+
 
 
 
