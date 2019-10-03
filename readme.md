@@ -1,14 +1,20 @@
 # Pensée computationnelle et programmation
 
+## Séance du Jeudi 19/09/2019 : Leçon 1
+
+Au début de la séance, j'ai présenté le curricula, la méthode de travail et les principaux outils qu'on utilisera au cours de l'année.
+
+Après la prise de contact, j'ai distribué aux élèves une liste de mots Informatiques supposées connus et les élèves ont essayé de les grouper par thème.
+
 ## Séance du Samedi 21/09/2019 : Leçon 2
 
-Dans la deuxième leçon nous avons commencé par décomposer l'interface de l'application.
+Dans la deuxième leçon nous avons commencé par décomposer l'interface de l'application Tetris.
 
 Nous avons ensuite étudié [un petit programme Tkinter](./Lecon_02/question_7.py)
 
 ![Résultat du programme](./images/lecon_02_q7.png)
 
-Nous avons modifié le programme précédent pour dessiner les pièces Tetris. [Le programme](./Lecon_02/question_8.py)
+Nous avons modifié le programme précédent pour dessiner les pièces de Tetris. [Le programme](./Lecon_02/question_8.py)
 
 ![Résultat du programme](./images/lecon_02_q8.png)
 
@@ -43,7 +49,7 @@ Notre programme a été, par la suite, amélioré :
   a. Le feu rouge s’allume pendant 5 secondes, puis s’éteint
 
   b. Le feu jaune s’allume pendant 1 seconde, puis s’éteint
-  
+
   c. Le feu vert s’allume pendant 5 secondes, puis s’éteint
 
 * [La deuxième amélioration](./Lecon_05/programme_v05.py) : Dans une situation réelle avant que le feu ne redevienne rouge une autre fois le feu jaune doit clignoter trois fois. Modifier votre programme afin de réaliser ce comportement.
