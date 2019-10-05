@@ -36,7 +36,7 @@ Dans la quatrième séance nous nous sommes intéressés à la grille du jeu. No
 
 ## Séance du Mardi 01/10/2019 : Leçon 5
 
-Dans la cinquième séance, nous avons commencé par présenter les structures conditionnelles en Python à travers le programme qui détermine [Le plus agé](./Lecon_05/plus_age.py).
+Dans la cinquième séance, nous avons commencé par présenter les structures conditionnelles **si ... alors ... sinon ... fin si** en Python à travers le programme qui détermine [Le plus agé](./Lecon_05/plus_age.py).
 
 Ensuite, nous avons essayé de dessiner un feu de circulation. Nous avons utilisé des constantes dans le calcul des différentes dimensions utilisés afin de permettre une certaine flexibilité dans le [programme](./Lecon_05/programme_v02.py).
 
@@ -61,5 +61,44 @@ Notre programme a été, par la suite, amélioré :
 | [Code Source](./Lecon_05/programme_v02.py) | [Code Source](./Lecon_05/programme_v03.py) | [Code Source](./Lecon_05/programme_v04.py) | [Code Source](./Lecon_05/programme_v05.py) |
 
 
+## Séance du Jeudi 03/10/2019 : Leçon 6
+
+Dans le but d'implémenter une version simplifiée du fameux jeu Pierre - Ciseaux - Feuille, nous avons commencé par déterminer l'ensemble des objets (constantes & variables) du programme.
+
+Etant décomposé en modules, nous avons introduit la notion de fonction et nous avons remarqué qu'elle peut avoir des paramètres.
+
+Lors de la définition de l'ensemble des fonctions, nous avons utilisé la structure **répéter** ... **jusqu'à ...** pour le contrôle de saisie de l'utilisateur. Nous avons eu besoin de répéter une action un nombre défini de fois d'où l'utilisation de la structure **pour ... faire** ... **fin pour**.
+
+Finalement, les élèves ont essayé de faire la traduction des algorithmes en Python et de réaliser un [programme fonctionnel](./Lecon_06/pcf.py).
+
+Voici un exemple du fonctionnement du programme :
+
+```
+Jeu Pierre - Ciseaux - Feuille
+
+0. Ciseaux
+1. Feuille
+2. Pierre
+Quel est votre choix ? 1
+
+Joueur gagne : Feuille bat Pierre
+
+0. Ciseaux
+1. Feuille
+2. Pierre
+Quel est votre choix ? 2
+
+Ordinateur gagne : Pierre est battu(e) par Feuille
+
+0. Ciseaux
+1. Feuille
+2. Pierre
+Quel est votre choix ? 1
+
+Manche nulle : Feuille et Feuille match nul.
+
+Le jeu est terminé
+Match nul
+```
 
 
