@@ -30,7 +30,11 @@ Nous avons, par la suite, appliqué la pensée computationnelle afin de dessiner
 
 ## Séance du Samedi 28/09/2019 : Leçon 4
 
-Dans la quatrième séance nous nous sommes intéressés à la grille du jeu. Nous avons déterminé les caractéristiques et les opérations de cette grille de jeu. Nous avons ensuite commencé par la première opération : Initialiser la grille du jeu.
+Dans la quatrième séance nous nous sommes intéressés à la grille du jeu. Nous avons déterminé les caractéristiques et les opérations de cette grille de jeu. 
+
+Nous avons ensuite commencé par la première opération : Initialiser la grille du jeu.
+
+Les élèves ont écrit un [programme](./Lecon_04/programme_v01.py) qui affiche la fenêtre suivante :
 
 ![Résultat leçon 4](./images/lecon_04.PNG)
 
