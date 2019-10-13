@@ -1,15 +1,16 @@
-def table_mul(n):
-    print('% 4s' % '*', end='')
-    for j in range(n):
-        print('% 4d' % (j+1), end='')
-    print()
-
-    for j in range(n):
-        print('% 4d' % (j+1), end='')
-        for i in range(n):
-            print('% 4d' % ((i+1)*(j+1),), end='')
-        print()
-
+# Affichage de la table de multiplication
 
 n = int(input('Donner n : '))
-table_mul(n)
+
+for i in range(n+1):
+    if i == 0:
+        print('%2s' % ('*',), end='')
+    else:
+        print('%4d' % (i,), end='')
+print()
+
+for i in range(1, n+1):
+    print('%2d' % i, end='')
+    for j in range(1, n+1):
+        print('%4d' % (i*j,), end='')
+    print()
