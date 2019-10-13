@@ -105,4 +105,16 @@ Le jeu est terminé
 Match nul
 ```
 
+## Séance du Jeudi 10/10/2019 : Leçon 7
+
+Nous avons profité de la connexion Internet, pour créer des comptes Google Classroom. Puis, nous avons fait une démonstration comment créer un programme Python sur repl.it, puis le remettre dans Google Classroom. 
+
+Nous avons traité trois programme :
+
+1. Le premier saisi deux entiers et affiche leurs sommes : [Lien](./Lecon_07/exercice01.py)
+
+2. Le seconde convertit une température Celcius en Fahrenheit et inversement : [Lien](./Lecon_07/exercice02.py)
+
+3. Le troisième affiche la table de multiplication : [Lien](./Lecon_07/exercice03.py)
+
 
