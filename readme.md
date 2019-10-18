@@ -117,4 +117,9 @@ Nous avons traité trois programme :
 
 3. Le troisième affiche la table de multiplication : [Lien](./Lecon_07/exercice03.py)
 
+## Séance du Jeudi 17/10/2019 : Leçon 8
+
+Un élève souhaite calculer le temps qu'il a passé dans la révision de deux matières. On propose un algorithme et on demande de le traduire en Python. Par la suite le programme est testé avec des données correctes.
+
+Puis, avec des données erronés, on remarque que le programme ne fonctionne pas correctement. On suggère, alors, le contrôle de saisie de l'utilisateur à travers une nouvelle fonction __saisie_heure(msg, hdm)__ qui remplacera la simple saisie à l'aide d'__input__.
 
