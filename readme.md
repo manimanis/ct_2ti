@@ -121,5 +121,39 @@ Nous avons traité trois programme :
 
 Un élève souhaite calculer le temps qu'il a passé dans la révision de deux matières. On propose un algorithme et on demande de le traduire en Python. Par la suite le programme est testé avec des données correctes.
 
-Puis, avec des données erronés, on remarque que le programme ne fonctionne pas correctement. On suggère, alors, le contrôle de saisie de l'utilisateur à travers une nouvelle fonction __saisie_heure(msg, hdm)__ qui remplacera la simple saisie à l'aide d'__input__.
+Puis, avec des données erronés, on remarque que le programme ne fonctionne pas correctement. On suggère, alors, le contrôle de saisie de l'utilisateur à travers une nouvelle fonction **saisie_heure(msg, hdm)** qui remplacera la simple saisie à l'aide d'**input**.
+
+La version finale atteinte par les élèves à la fin de cette séance : [Lien](./Lecon_07/v01_eleve.py)
+
+## Séance du Samedi 19/10/2019 : Leçon 8 (suite)
+
+Le programme est amélioré d'avantage par une fonction **saisie_revision(matiere, hdm)** qui assure la saisie correcte de l'heure de début et de fin de révsision pour une matière donnée. Cette nouvelle se basera sur la fonction précédente **saisie_heure(msg, hdm)** et ajoutera un test pour que l'heure de fin de révision soit toujours supèrieure à l'heure de début de révision.
+
+Comme l'élève cité précédemment puisse vouloir réviser pour plusieurs matières on demande d'améliorer le programme pour supporter un nombre donné de matières : [Lien](./Lecon_08/v04.py).
+
+```
+Donner le nombre de matières à réviser : 4
+Matière n° 1
+Donner le nom de la matière : info
+Heure début de révision (info) >= 00:00 : 10:00
+Heure de fin de révision (info) > 10:00 : 11:15
+Matière n° 2
+Donner le nom de la matière : tech
+Heure début de révision (tech) >= 11:15 : 11:30
+Heure de fin de révision (tech) > 11:30 : 12:10
+Matière n° 3
+Donner le nom de la matière : physique
+Heure début de révision (physique) >= 12:10 : 13:00
+Heure de fin de révision (physique) > 13:00 : 15:00
+Matière n° 4
+Donner le nom de la matière : math
+Heure début de révision (math) >= 15:00 : 17:00
+Heure de fin de révision (math) > 17:00 : 17:15
+Temps de révision
+info : 01:15
+tech : 00:40
+physique : 02:00
+math : 00:15
+Durée Totale : 04:10
+```
 
